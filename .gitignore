@@ -1,0 +1,14 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.env
+.venv/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Ignore all raw data except key files
+data/raw/*
+!data/raw/gov_spending.csv
+!data/raw/poverty.csv
+!data/raw/unemployment.csv
